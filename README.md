@@ -34,7 +34,13 @@ This paper proposes an automated framework to extract a Knowledge Graph from pre
 
 ### Prompt Engineering
 
+1. Das \<ENT1> wird bei der Krankheit \<ENT0> angewendet.
 
+2. Das in der Kardiologie verwendete Medikament \<ENT1> dient der Behandlung von Krankheit \<ENT0> .
+
+3. Medikament: Warfarin, Krankheit: Vorhofflimmern. Das Medikament \<ENT1> wird zur Behandlung der Krankheit \<ENT0> in der Kardiologie eingesetzt.
+
+4. In der Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird zur Behandlung der Arrhythmie verwendet. Das Medikament Aspirin wird bei Arteriosklerose angewendet. Das Medikament \<ENT1> wird zur Behandlung der Krankheit \<ENT0> in der Kardiologie eingesetzt.
 
 ## Experiments
 
@@ -43,8 +49,6 @@ This paper proposes an automated framework to extract a Knowledge Graph from pre
 - gBERT-base 
 - gBERT-large
 - medBERT.de
-- xml-roBERTa 
-
 
 ### Experimental setup
 Four sets of extractions: 
@@ -57,9 +61,14 @@ Four sets of extractions:
 
 
 ## Evaluation 
-- ground truth relations extracted from cardio.de 
-- SNOMED CT ontologies 
-- giving known correct pairs as input and evaluting the output probability 
+
+
+HasMedication: 156 generated pairs --> 50 correct pairs <br>
+HasDrugForm: 116 generated pairs --> 15 correct pairs <br>
+HasRiskFaktor: 68 generated pairs --> 45 correct pairs <br>
+HasSideEffect: 100 generated pairs --> 18 correct pairs <br>
+HasSymptom:  125 generated pairs --> 68 correct pairs <br>
+
 
 ## References
 
