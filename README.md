@@ -5,7 +5,8 @@
 Knowledge graphs can be a great tool to leverage information, more specifically healthcare data, that can lead to improved clinical decision-making, enhanced
 research capabilities, and optimized healthcare delivery, this can be achieved by integrating patient-specific data with medical knowledge.
 However, most knowledge graphs are manually created, might not fit all tasks and are mostly in English. Thus, most graphs can be rather costly to construct and they are not applicable to German data. Recently, language models like BERT have been shown to encode a large amount of knowledge implicitly in their parameters. Hao et al. 2022 harvested symbolic Knowledge Graphs from the LMs and proposed a framework for automatic KG construction. However, this approach has thus far only been tested on non-medical
-English data. Therefore, this thesis project aims to evaluate the potential of language models as a source for harvesting medical knowledge in German.
+English data. <br>
+Therefore, this master thesis aims to evaluate the potential of language models as a source for harvesting clinical knowledge in German.
 
 ### Researh Questions 
 
@@ -30,9 +31,25 @@ The following table contains some statistics about the
 ## Methods
 
 BERTNet: Harvesting Knowledge from the LMs (Hao et al. 2022)
-This paper proposes an automated framework to extract a Knowledge Graph from pre-trained LMs such as BERT or RoBERTa. The framework derives knowledge of new relation types and entities, independent of existing knowledge bases or corpora. The study investigates the knowledge capacity of different models, revealing that larger models encode more knowledge. Improved pre-training strategies enhance the quality of learned and stored knowledge.
+This paper proposes an automated framework to extract a Knowledge Graph from pre-trained LMs such as BERT or RoBERTa. The framework derives knowledge of new relation types and entities, independent of existing knowledge bases or corpora. The study investigates the knowledge capacity of different models, revealing that larger models encode more knowledge. <br>
+<br>
+Core components of BERTnet: 
+1. Automatic creation of diverse prompts with confidence weights
+
+Given the input information of a relation: initial prompt and a few shots of seed entity pairs 
+→ initial prompt is paraphrased to a large set of prompts that are linguistically diverse but semantically describe the same relation. Entity names are then removed. Each prompt is associated with a confidence weight. 
+Based on the edit distance the prompts that are sufficiently different are kept. Compatibility score is created to avoid noisy prompts.
+
+2. Efficient search to discover consistent entity pairs 
+
+Entity pairs are harvested that satisfy all prompts. The minimum individual log-likelihoods and weighted averaged across different prompts are used to propose a large set of candidate entity pairs.
+
+These pairs are then re-ranked based with the full consistency score and top-K instances are picked as the output knowledge
+It is important to change the language of the stopwords that used to filter out the unnecessary candidates.  
 
 ### Prompt Engineering
+
+Getting the right prompt is very important in order to extract accurate entity pairs. This sections contains samples of different types of prompts that have been used in the experiments. 
 
 1. Das \<ENT1> wird bei der Krankheit \<ENT0> angewendet.
 
@@ -58,7 +75,7 @@ Four sets of extractions:
 - further pre-trained models + few-shot learning prompts
 
 ## Results 
-
+This section will list out some of the best results that were produced.
 
 ## Evaluation 
 
