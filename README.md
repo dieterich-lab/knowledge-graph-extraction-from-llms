@@ -110,14 +110,18 @@ The following results are from the medbert.de model.
 <br>
   
 ## Evaluation 
-
-
+Manual evalution is the most effective approach. To reduce the effort of manually checking over 100 entries and extra filtering step has been added. The filtering steps involves passing the output of the BERTnet framework in batches of 20 to gpt4 with an instruction to filter out pairs that are wrong for the given relation. 
+an example of an instuction: <br>
+"For element in the nested list: element[0] is a disease and element[1] is a medication. Go through the list and if element[1] is a valid medication for element[0] or it is part of therapy for element[0] then keep it in the list, if not, then remove it from the list"<br>
+These the filtered results: <br>
 HasMedication: 156 generated pairs --> 50 correct pairs <br>
 HasDrugForm: 116 generated pairs --> 15 correct pairs <br>
 HasRiskFaktor: 68 generated pairs --> 45 correct pairs <br>
 HasSideEffect: 100 generated pairs --> 18 correct pairs <br>
 HasSymptom:  125 generated pairs --> 68 correct pairs <br>
 
+## Conclusion
+From the above results, it can be seen that it is possible to extract German clinical Knowledge from a pre-trained language model. The best results are extracted from a medBERT.de model that was further pre-trained on the cardio data(DGK, CARDIO.de and mieDEEP). The best evaluation strategy is to pass the results through a filtering step with GPT4 and then do a manual check on the remaining enities. 
 
 ## References
 
