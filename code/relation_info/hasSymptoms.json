@@ -1,0 +1,41 @@
+{
+    "isSymptomFor": {
+            "init_prompts": [
+                "In der Kardiologie, <ENT0> ist ein Symptom für die Krankheit <ENT1>."
+            ],
+            "seed_ent_tuples": [
+                [
+                    "Schwäche",
+                    "Anämie"
+                ],
+                [
+                    "starke Magenschmerzen",
+                    "Pankreatitis"
+                ],
+                [
+                    "Brustschmerzen",
+                    "Angina"
+                ],
+                [
+                    "Kurzatmigkeit",
+                    "Herzinfarkt"
+                ],
+                [
+                    "Fieber",
+                    "Meningitis"
+                ]
+            ],
+            "prompts": [
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. <ENT0> signalisiert das Vorliegen von <ENT1> als Symptom einer kardiologischen Erkrankung.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. Ein Symptom für Krankheit <ENT1> in der Kardiologie ist <ENT0>.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. Das in der Kardiologie auftretende Symptom <ENT0> steht für die Krankheit <ENT1>.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. In der Kardiologie, repräsentiert <ENT0> die Krankheit <ENT1> als Symptom.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. In der Kardiologie wird <ENT0> als ein Anzeichen der Krankheit <ENT1> erkannt.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. In der Kardiologie,die Feststellung von <ENT0> lässt oft auf die Wahrscheinlichkeit von <ENT1> schließen.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. In der Kardiologie ist die Krankheit <ENT1> durch das Symptom <ENT0> gekennzeichnet.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. Die Krankheit <ENT1> äußert sich in der Kardiologie durch das Symptom <ENT0>.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. In der Herzmedizin, steht <ENT0> für die Erkrankung <ENT1>.",
+                "In der Kardiologie ist Kurzatmigkeit ein Symptom eines Herzinfarkts. Auch Brustschmerzen ist ein Symptom für Angina. <ENT0> wird in der Herzmedizin als ein Hinweis für die Erkrankung <ENT1> verstanden."
+            ]
+        }
+    }

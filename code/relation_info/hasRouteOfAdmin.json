@@ -1,0 +1,41 @@
+{
+    "hasRouteofAdmin": {
+        "init_prompts": [
+            "In der Kardiologie erfolgt die Arzneimittelverabreichung von <ENT0> über den Weg <ENT1>. "
+        ],
+        "seed_ent_tuples": [
+            [
+                "Paracetamol",
+                "oral"
+            ],
+            [
+                "Morphium",
+                "intravenös"
+            ],
+            [
+                "Albuterol",
+                "inhalativ"
+            ],
+            [
+                "Aspirin",
+                "oral"
+            ],
+            [
+                "Epinephrin",
+                "intramuskulär"
+            ]
+        ],
+        "prompts": [
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. Die Kardiologie nutzt den Verabreichungsweg <ENT1> für <ENT0>",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Kardiologie wird <ENT0> über die Route <ENT1> verabreicht.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Kardiologie verwendet man den Weg <ENT1> zur Verabreichung von <ENT0>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Fachrichtung Kardiologie ist <ENT1> der Applikationsweg für <ENT0>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In Bezug auf die Kardiologie ist <ENT1> der Verabreichungsweg für <ENT0>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Kardiologie erfolgt die Medikamentengabe von <ENT0> durch den Weg <ENT1>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Kardiologie erfolgt die Arzneimittelverabreichung von <ENT0> über den Weg <ENT1>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. Innerhalb der Kardiologie erfolgt die Arzneimittelverabreichung von <ENT0> mithilfe von <ENT1>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Kardiologie ist <ENT1> die Applikationsform für <ENT0>.",
+            "Paracetamol wird oral verabreicht. Morphium wird intravenös verabreicht. Das Medikament Albuterol wird inhalativ verabreicht. In der Kardiologie wird <ENT0> unter Verwendung des Verabreichungswegs <ENT1> verabreicht."
+        ]
+    }
+}

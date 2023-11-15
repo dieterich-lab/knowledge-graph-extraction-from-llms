@@ -1,0 +1,41 @@
+{
+    "hasMedication": {
+        "init_prompts": [
+            "Das Medikament <ENT1> wird bei der Krankheit <ENT0> angewendet."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Herzinsuffizienz",
+                "Digoxin"
+            ],
+            [
+                "Arrhythmie",
+                "Amiodaron"
+            ],
+            [
+                "Bluthochdruck",
+                "Lisinopril"
+            ],
+            [
+                "Herzinfarkt",
+                "Nitroglycerin"
+            ],
+            [
+                "Koronare Herzkrankheit",
+                "Aspirin"
+            ]
+        ],
+        "prompts": [
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. In der Kardiologie, <ENT1> ist ein <ENT0>-Medikament.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. In der Kardiologie, <ENT1> wird f\u00fcr <ENT0> eingesetzt.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. <ENT1> ist ein Medikament gegen <ENT0>.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. <ENT1> wird haupts\u00e4chlich f\u00fcr <ENT0> verwendet.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. <ENT1> wird verwendet, um <ENT0> zu behandeln.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. <ENT1> ist ein Medikament, das bei <ENT0> eingesetzt wird.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. Das Medikament <ENT1> wird f\u00fcr die kardiologische Krankheit <ENT0> verwendet.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. Das Medikament <ENT1> wird zur Behandlung von <ENT0> in der Kardiologie eingesetzt.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. Die Kardiologen empfehlen, <ENT1>  zur Behandlung von <ENT0> einzusetzen.",
+            "In Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird für die Krankheit Arrhythmie benutzt. Das Medikament Aspirin wird bei der Krankheit Arteriosklerose angwendet. Das Medikament <ENT1> wird bei der kardiologischen Krankheit <ENT0>."
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "hasSideEffect": {
+        "init_prompts": [
+            "Bei der Verwendung von <ENT0> können möglicherweise <ENT1> auftreten."
+        ],
+        "seed_ent_tuples": [
+            [
+                "Paracetamol",
+                "Magenbeschwerden"
+            ],
+            [
+                "Ibuprofen",
+                "Kopfschmerzen"
+            ],
+            [
+                "Prednison",
+                "Gewichtszunahme"
+            ],
+            [
+                "Omeprazol",
+                "Übelkeit"
+            ],
+            [
+                "Loratadin",
+                "Müdigkeit"
+            ]
+        ],
+        "prompts": [
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. In der Kardiologie können bei der Anwendung von <ENT0> Nebenwirkungen in Form von <ENT1> auftreten.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. Die Verwendung von <ENT0> in der Kardiologie kann <ENT1> als mögliche Nebenwirkungen haben.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. <ENT1> ist in der Kardiologie eine Nebenwirkung von  <ENT0>.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. Die Anwendung von <ENT0> in der Kardiologie kann <ENT1> zur Folge haben.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. <ENT0> in der Kardiologie kann mit <ENT1> als möglichen Nebenwirkungen einhergehen.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. Die kardiologische Therapie mit <ENT0> kann <ENT1> als mögliche Begleiterscheinungen haben.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. Eine Nebenwirkung für das Medikament <ENT0> ist <ENT1>.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. Unerwünschte Nebenwirkungen wie <ENT1> sind in der Kardiologie bei <ENT0> möglich.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. <ENT1> können unerwünschte Konsequenzen der kardiologischen Anwendung von <ENT0> sein.",
+            "Diuretika können niedrige Kaliumspiegel als Nebenwirkungen haben. Betablocker können Nebenwirkungen wie Schwindel haben. Kopfschmerzen sind Nebenwirkungen von Pantozol. Bei der Verwendung von <ENT0> können möglicherweise Nebenwirkungen wie <ENT1> auftreten."
+        ]
+    }
+}

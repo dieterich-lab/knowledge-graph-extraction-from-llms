@@ -1,0 +1,41 @@
+{
+    "isRecommendedForIllness": {
+            "init_prompts": [
+                "<ENT0> wird für Krankheit <ENT1> empfohlen."
+            ],
+            "seed_ent_tuples": [
+                [
+                    "fasten",
+                    "akuten Cholezystitis"
+                ],
+                [
+                    "abschwellende Mittel",
+                    "Allergien"
+                ],
+                [
+                    "Chemotherapie",
+                    "Krebs"
+                ],
+                [
+                    "Betablocker",
+                    "Angina"
+                ],
+                [
+                    "Alendronate",
+                    "Osteoporose"
+                ]
+            ],
+            "prompts": [
+                "Es wurde vorgeschlagen, dass <ENT0> zur Behandlung von Krankheit <ENT1> verwendet wird.",
+                "Gemäß den Empfehlungen sollte <ENT0> als Heilmittel für <ENT1> eingesetzt werden.",
+                "Angesichts des aktuellen Wissensstandes zum Thema wird empfohlen, <ENT0> zur Bewältigung von <ENT1> einzusetzen.",
+                "Gemäß etablierten Richtlinien ist <ENT0> eine geeignete Option zur Bewältigung von <ENT1>-bezogenen Symptomen.",
+                "Basierend auf verfügbaren Beweisen ist die Verwendung von <ENT0> als Teil eines umfassenden Behandlungsplans für <ENT1> von Vorteil.",
+                "Wenn es darum geht, <ENT1> zu lindern, ist <ENT0> eine mögliche Handlungsoption.",
+                "Wenn man effektive Linderung von <ENT1> sucht, wird <ENT0> wärmstens empfohlen.",
+                "Angesichts seiner Wirksamkeit bei ähnlichen Erkrankungen ist es nicht überraschend, dass <ENT0> auch gegen <ENT1> gut wirkt.",
+                "Diejenigen, die unter <ENT1> leiden, können mit Vertrauen auf <ENT0> setzen, da es heilende Vorteile bietet.",
+                "Unter Berücksichtigung aller Faktoren besteht kein Zweifel daran, dass <ENT0> ernsthaft in Betracht gezogen werden sollte, wenn man <ENT1> angeht."
+            ]
+        }
+    }

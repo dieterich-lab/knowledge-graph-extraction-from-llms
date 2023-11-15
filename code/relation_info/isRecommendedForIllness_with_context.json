@@ -1,0 +1,41 @@
+{
+    "isRecommendedForIllness": {
+            "init_prompts": [
+                "<ENT0> wird für Krankheit <ENT1> empfohlen."
+            ],
+            "seed_ent_tuples": [
+                [
+                    "Betablocker",
+                    "Koronare Herzkrankheit"
+                ],
+                [
+                    "Implantation von Herzschrittmacher",
+                    "Arrhythmien"
+                ],
+                [
+                    "Betablocker",
+                    "Hypertonie"
+                ],
+                [
+                    "Betablocker",
+                    "Angina"
+                ],
+                [
+                    "Notfallmedizinische Versorgung",
+                    "Myokardinfarkt"
+                ]
+            ],
+            "prompts": [
+                "In der Fachrichtung Kardiologie wird für <ENT1> eine Empfehlung für <ENT0> ausgesprochen.",
+                "Es wird in der Kardiologie empfohlen, <ENT0> für <ENT1> zu verwenden.",
+                "Für <ENT1> wird in der Kardiologie eine Empfehlung für <ENT0> gegeben.",
+                "In der Kardiologie ist es ratsam, <ENT0> für <ENT1> zu nutzen.",
+                "<ENT0> wird in der Kardiologie als empfohlenes Mittel für <ENT1> angesehen.",
+                "In der Kardiologie empfiehlt man <ENT0> für <ENT1>.",
+                "Für <ENT1> wird in der Kardiologie der Einsatz von <ENT0> empfohlen.",
+                "In der Kardiologie wird <ENT0> als geeignetes Mittel für <ENT1> empfohlen.",
+                "Es wird in der Kardiologie geraten, <ENT0> für <ENT1> zu verwenden.",
+                "Für <ENT1> empfiehlt die Kardiologie den Einsatz von <ENT0>."
+            ]
+        }
+    }

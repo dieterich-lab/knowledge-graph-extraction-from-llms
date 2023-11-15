@@ -1,0 +1,41 @@
+{
+    "hasDrugForm":{
+            "init_prompts": [
+                "In der Kardiologie <ENT0> hat die Arzneiform <ENT1>."
+            ],
+            "seed_ent_tuples": [
+                [
+                    "Ibuprofen",
+                    "Tabletten"
+                ],
+                [
+                    "Omeprazol",
+                    "Kapseln"
+                ],
+                [
+                    "Salbutamol",
+                    "Inhalationsspray"
+                ],
+                [
+                    "Amoxicillin",
+                    "Filmtabletten"
+                ],
+                [
+                    "Diazepam",
+                    "Tropfen"
+                ]
+            ],
+            "prompts": [
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. In der medizinischen Disziplin Kardiologie, die Darreichungsform von <ENT0> ist <ENT1>",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. <ENT0> ist in der Darreichungsform <ENT1> erhältlich.",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. Innerhalb der Kardiologie, das Medikament <ENT0> wird in <ENT1>-Form verabreicht.",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. Innerhalb des kardiologischen Bereichs, die Form des Medikaments <ENT0> ist <ENT1>",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. In der Abteilung Kardiologie wird das Medikament <ENT0> in <ENT1>-Form eingenommen",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. Innerhalb der kardiologischen Praxis, die gewählte Arzneiform für das Medikament <ENT0> ist <ENT1>",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. Die Fachrichtung für Herzkrankheiten, <ENT0> wird in Form von <ENT1> verabreicht.",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. Die medizinische Spezialität Kardiologie, <ENT1> ist die spezifische Form von <ENT0>.",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. Im Fachgebiet Kardiologie, <ENT0> ist in <ENT1>-Form erhältlich.",
+                "In der Kardiologie das Medikament Irenat hat die Arzneiform Tropfen. In der Kardiologie das Medikament Ibuprofen ist in Tabletten-Form. Salbutamol ist ein Inhalationsspray. In der Herzmedizin wird das Medikament <ENT0> die Arzneityp <ENT1> verwendet."
+            ]
+        }
+    }
