@@ -111,8 +111,8 @@ print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
 
 
 
-model =AutoModelForMaskedLM.from_pretrained("./cardioNET/models/gbert_large_ggponc_bronco_dgk_cardio_mieDEEP2")
-tokenizer =AutoTokenizer.from_pretrained("./cardioNET/models/gbert_large_ggponc_bronco_dgk_cardio_mieDEEP2")
+model =AutoModelForMaskedLM.from_pretrained("")
+tokenizer =AutoTokenizer.from_pretrained("")
 mlm_pipeline = pipeline("fill-mask", model=model, tokenizer=tokenizer, top_k=5)
 
 
