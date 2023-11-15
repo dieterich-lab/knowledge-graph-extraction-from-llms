@@ -77,6 +77,38 @@ Four sets of extractions:
 ## Results 
 This section will list out some of the best results that were produced.
 
+
+<p float="left">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/gbert-base.png" alt="gbert-base" width="300" height="500">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/gbert-large.png" alt="gbert-large" width="300" height="500">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/medbert_comparison.png" alt="medbert" width="300" height="500"> <br>
+  Figure 1. Futher pre-trained gBERT-base  Figure 2. Further pre-trained gBERT-large      Figure 3. Further pretrained medBERT.de
+</p>
+<br>
+<p float="left">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/no_context_prompt_illnessRecommendation.png" alt="no_context" width="400" height="500">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/prompt_with_context_illnessRecommendation.png" alt="with_context" width="400" height="500"> <br>
+  Figure 4. Prompt with no cardiology context Figure 5. Prompt with cardiology context
+</p>
+<br>
+The following results are from the medbert.de model.
+<p float="left">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasMedication.png" alt="meds" width="300" height="500">
+<br> 
+  Figure 6. hasMedication <br> 
+<p float="left">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasDrugForm.png" alt="no_context" width="400" height="500">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasRiskFactor.png" alt="with_context" width="400" height="500"> <br>
+  Figure 7. hasDrugForm Figure 8. hasRiskFactors
+</p>
+<br>
+<p float="left">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasSymptoms.png" alt="no_context" width="400" height="500">
+  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasSideEffect.png" alt="with_context" width="400" height="500"> <br>
+  Figure 9. hasSymptopms Figure 10. hasSideEffects
+</p>
+<br>
+  
 ## Evaluation 
 
 
@@ -89,7 +121,7 @@ HasSymptom:  125 generated pairs --> 68 correct pairs <br>
 
 ## References
 
-Hao et al. 2022
-Socrates 2022
-Bressem et al. 2023 
-Devlin et al. 2019
+Hao et al. 2022 "BertNet: Harvesting Knowledge graphs from pretrained language models" <br>
+Vimig Socrates. (2022). Extraction of Diagnostic Reasoning Relations for Clinical Knowledge Graphs.  <br>
+Bressem et al. 2023 "medBERT.DE: A comprehensive German BERT model for the medical domain"  <br>
+Devlin, Jacob et al. “BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.” North American Chapter of the Association for Computational Linguistics (2019).
