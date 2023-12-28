@@ -4,14 +4,13 @@
 
 Knowledge graphs can be a great tool to leverage information, more specifically healthcare data, that can lead to improved clinical decision-making, enhanced
 research capabilities, and optimized healthcare delivery, this can be achieved by integrating patient-specific data with medical knowledge.
-However, most knowledge graphs are manually created, might not fit all tasks and are mostly in English. Thus, most graphs can be rather costly to construct and they are not applicable to German data. Recently, language models like BERT have been shown to encode a large amount of knowledge implicitly in their parameters. Hao et al. 2022 harvested symbolic Knowledge Graphs from the LMs and proposed a framework for automatic KG construction. However, this approach has thus far only been tested on non-medical
-English data. <br>
-Therefore, this master thesis aims to evaluate the potential of language models as a source for harvesting clinical knowledge in German.
+However, most knowledge graphs are manually created, might not fit all tasks and are mostly in English. These KGs can be rather costly to construct and they are not applicable to German data. Recently, language models like BERT have been shown to encode a large amount of knowledge implicitly in their parameters. Hao et al. 2022 harvested symbolic Knowledge Graphs from the pretrained LMs and proposed a framework for automatic KG construction. However, this approach has thus far only been tested on non-medical English data. <br>
+Therefore, this master thesis aims to evaluate the potential of pre-trained language models as a source for harvesting clinical knowledge in German.
 
 ### Researh Questions 
 
 Q1. Can German clinical knowledge be extracted from pre-trained language models? <br>
-Q2. What is the level of accuracy achieved by the resulting Knowledge Graph, and which data and models exhibit the highest performance? <br>
+Q2. What is the optimal combination of models, data and prompts to give the best results? <br>
 Q3. What is the best evaluation strategy? <br>
 
 
