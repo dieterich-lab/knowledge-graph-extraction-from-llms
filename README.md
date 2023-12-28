@@ -1,4 +1,4 @@
-# knowledge-graph-extraction-from-llms
+# Harvesting German clinical knowledge from pre-trained language models
 
 ## Introduction
 
