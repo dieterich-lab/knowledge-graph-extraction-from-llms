@@ -14,19 +14,6 @@ Q2. What is the optimal combination of models, data and prompts to give the best
 Q3. What is the best evaluation strategy? <br>
 
 
-## Data 
-
-The following table contains some statistics about the 
-
-| Name           | Number of Tokens | Number of Documents | Domain      |
-|-----------------|-----------------|-----------------|-----------------|
-| GGPONC         | 1,877,100        | 30              | Oncology        |
-| BRONCO150      | 70,572           | 150             | Oncology        | 
-| DKG            | ToDO             | 128             | Cardiology      | 
-| CARDIO.de      | 993,143          | 500             | Cardiology      |
-| MieDEEP        | 977,504          | 500             | Cardiology      | 
-
-
 ## Methods
 
 BERTNet: Harvesting Knowledge from the LMs (Hao et al. 2022)
@@ -59,6 +46,19 @@ Getting the right prompt is very important in order to extract accurate entity p
 4. In der Kardiologie wird das Medikament Warfarin bei Vorhofflimmern eingesetzt. Auch das Medikament Amiodaron wird zur Behandlung der Arrhythmie verwendet. Das Medikament Aspirin wird bei Arteriosklerose angewendet. Das Medikament \<ENT1> wird zur Behandlung der Krankheit \<ENT0> in der Kardiologie eingesetzt.
 
 ## Experiments
+
+## Data 
+
+The following table contains some statistics about the 
+
+| Name           | Number of Tokens | Number of Documents | Domain      |
+|-----------------|-----------------|-----------------|-----------------|
+| GGPONC         | 1,877,100        | 30              | Oncology        |
+| BRONCO150      | 70,572           | 150             | Oncology        | 
+| DKG            | ToDO             | 128             | Cardiology      | 
+| CARDIO.de      | 993,143          | 500             | Cardiology      |
+| MieDEEP        | 977,504          | 500             | Cardiology      | 
+
 
 ### Models 
 
