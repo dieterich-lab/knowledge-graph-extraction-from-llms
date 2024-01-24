@@ -1,4 +1,4 @@
-# Harvesting German clinical knowledge from pre-trained language models
+# Harvesting German clinical knowledge graphs from pretrained language models
 
 ## Introduction
 
@@ -9,7 +9,7 @@ Therefore, this master thesis aims to evaluate the potential of pre-trained lang
 
 ### Researh Questions 
 
-Q1. Can German clinical knowledge be extracted from pre-trained language models? <br>
+Q1. Can German clinical knowledge be extracted from pretrained language models? <br>
 Q2. What is the optimal combination of models, data and prompts to give the best results? <br>
 Q3. What is the best evaluation strategy? <br>
 
@@ -55,16 +55,19 @@ The following table contains some statistics about the
 |-----------------|-----------------|-----------------|-----------------|
 | GGPONC         | 1,877,100        | 30              | Oncology        |
 | BRONCO150      | 70,572           | 150             | Oncology        | 
-| DKG            | ToDO             | 128             | Cardiology      | 
+| DGK            | 172,320          | 128             | Cardiology      | 
 | CARDIO.de      | 993,143          | 500             | Cardiology      |
 | MieDEEP        | 977,504          | 500             | Cardiology      | 
+| MIMIC-III      | approx. 500 mil  | around 2 mil.   | Hospital Clinical Notes |
 
+Table 1. Dataset statistics
 
 ### Models 
 
 - gBERT-base 
 - gBERT-large
 - medBERT.de
+- xlm-RoBERTa
 
 ### Experimental setup
 Four sets of extractions: 
@@ -74,40 +77,58 @@ Four sets of extractions:
 - further pre-trained models + few-shot learning prompts
 
 ## Results 
-This section will list out some of the best results that were produced.
+This section will list out some of the results that demonstrate that German clinical knowledge can be extracted from a pretrained model.
 
 
-<p float="left">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/gbert-base.png" alt="gbert-base" width="300" height="500">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/gbert-large.png" alt="gbert-large" width="300" height="500">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/medbert_comparison.png" alt="medbert" width="300" height="500"> <br>
-  Figure 1. Futher pre-trained gBERT-base  Figure 2. Further pre-trained gBERT-large      Figure 3. Further pretrained medBERT.de
-</p>
-<br>
-<p float="left">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/no_context_prompt_illnessRecommendation.png" alt="no_context" width="400" height="500">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/prompt_with_context_illnessRecommendation.png" alt="with_context" width="400" height="500"> <br>
-  Figure 4. Prompt with no cardiology context Figure 5. Prompt with cardiology context
-</p>
-<br>
-The following results are from the medbert.de model.
-<p float="left">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasMedication.png" alt="meds" width="300" height="500">
-<br> 
-  Figure 6. hasMedication <br> 
-<p float="left">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasDrugForm.png" alt="no_context" width="400" height="500">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasRiskFactor.png" alt="with_context" width="400" height="500"> <br>
-  Figure 7. hasDrugForm Figure 8. hasRiskFactors
-</p>
-<br>
-<p float="left">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasSymptoms.png" alt="no_context" width="400" height="500">
-  <img src="https://github.com/dieterich-lab/knowledge-graph-extraction-from-llms/blob/main/results/hasSideEffect.png" alt="with_context" width="400" height="500"> <br>
-  Figure 9. hasSymptopms Figure 10. hasSideEffects
-</p>
-<br>
-  
+| gBERT-base-fpt                         | gBERT-large-fpt                         | medBERT.de-fpt                          | 
+|----------------------------------------|-----------------------------------------|-----------------------------------------|
+| beide wege - beide seiten              | Cannabis - Schmerzen                    | Magnesium - Angina Pectoris             |
+| beide vorgehen - beide seiten          | beide medizin - beide seiten            | Psychotherapie - Beschwerden            | 
+| Bewegung - Beschwerden                 | versch. technologien - versch. ursachen | Metformin - kardio. risikofaktoren      | 
+| Alkohol - Beschwerden                  | Alkohol - Schmerzen                     | Ibuprofen - Beschwerden                 |
+| Cannabis - Beschwerden                 | Cannabis - Beschwerden                  | Sauerstoff - Atemnot                    |
+| Bewegung - Schmerzen                   | Alkohol - Beschwerden                   | Psychotherapie - Schmerzen              | 
+| Cannabis - Schmerzen                   | Bewegung - Schmerzen                    | aktuell methotrexat - Lungenfibrose     | 
+| Schokolade - Beschwerden               | Bewegung - Beschwerden                  | Cannabis - Beschwerden                  | 
+| Alkohol - Schmerzen                    | Yoga - körperliche schwäche             | Clopidogrel - Vorhofflimmern            | 
+| Schokolade - Schmerzen                 | Schlaf Ab - Schlaf Frei                 | Psychotherapie - Depression             | 
+| zahn zähne - zähne gut                 | Sauerstoff - Schmerzen                  | Nikotin - kardio. risikofaktoren        | 
+| Rauch Zigaretten - Nichtraucher        | Doping - körperliche schwäche           | Clopidogrel - Beschwerden               |
+| zahn zähne - zähne dauerhaft           | Cannabis - Schmerz                      | Prednisolon - akuten nierenversagen     | 
+| Cannabis - Stress                      | Sauerstoff - Beschwerden                | Cannabis - Schmerzen                    | 
+| Physi Fitness - körperliche belastung  | Alkohol - Stress                        | Sauerstoff - Dyspnoe                    | 
+| Bewegung - Schmerz                     | beides - Patienten                      | Physiotherapie - Rückenschmerzen        | 
+| beide wege - beide ursachen            | Sauerstoff - Patienten                  | Paracetamol - Übelkeit                  | 
+| Alkohol - Fieber                       | Bewegung - Stress                       | Ibuprofen - Atemnot                     | 
+| Bewegung - Stress                      | Cannabis - Stress                       | psych. unterstützung - Depressionen     |
+| Alkohol - Stress                       | Alkohol - Schmerz                       | Psychotherapie - Schlafstörungen        | 
+
+Table 2. Top-20 results for isRecommendedForIllness relation for the further pretrained models. <br>
+
+| non-contextualized prompt                 | contextualized prompt                       |
+|-------------------------------------------|---------------------------------------------|
+| Magnesium - Angina Pectoris               | Magnesium - Herzrhythmusstörungen           |
+| Psychotherapie - Beschwerden              | Clopidogrel - Vorhofflimmern                |
+| Metformin - kardio. risikofaktoren        | Clopidogrel - Herzinsuffizienz              |
+| Ibuprofen - Beschwerden                   | Kontrastmittel - Herzrhythmusstörungen      |
+| Sauerstoff - Atemnot                      | Metformin - Herzinsuffizienz                |
+| Psychotherapie - Schmerzen                | Kontrastmittel - Komplikationen             |
+| methotrexat - Lungenfibrose               | Magnesium - Herzinsuffizienz                |
+| Cannabis - Beschwerden                    | Röntgen Thorax - Rundherde                  |
+| Clopidogrel - Vorhofflimmern              | Clopidogrel - Monate                        |
+| Psychotherapie - Depression               | Röntgen Thorax - Pneumothorax               |
+| Nikotin - kardio. risikofaktoren          | Adenosin - weitere therapieansätze          |
+| Clopidogrel - Beschwerden                 | Kontrastmittel - Beschwerden                |
+| Prednisolon - akuten nierenversagen       | Clopidogrel - Patienten                     |
+| Cannabis - Schmerzen                      | Metformin - Herzrhythmusstörungen           |
+| Sauerstoff - Dyspnoe                      | Cholesterin - kardio. risikofaktoren        |
+| Physiotherapie - Rückenschmerzen          | Adenosin - Beschwerden                      |
+| Paracetamol - Übelkeit                    | Methotrexat - Lungenfibrose                 |
+| Ibuprofen - Atemnot                       | Sauerstoff - Herzrhythmusstörungen          |
+| psych. unterstützung - Depressionen       | Methotrexat - Cyclophosphamid               |
+
+Table 3. Effectiveness of prompt contextualizing for the further pretrained medBERT.de model for the isRecommendedForIllness relation. <br>
+
 ## Evaluation 
 Manual evalution is the most effective approach. To reduce the effort of manually checking over 100 entries and extra filtering step has been added. The filtering steps involves passing the output of the BERTnet framework in batches of 20 to gpt4 with an instruction to filter out pairs that are wrong for the given relation. 
 an example of an instuction: <br>
