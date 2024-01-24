@@ -10,7 +10,7 @@ Therefore, this master thesis aims to evaluate the potential of pre-trained lang
 ### Researh Questions 
 
 Q1. Can German clinical knowledge be extracted from pretrained language models? <br>
-Q2. What is the optimal combination of models, data and prompts to give the best results? <br>
+Q2. What combination of models, data and prompts maximizes the precision score? <br>
 Q3. What is the best evaluation strategy? <br>
 
 
