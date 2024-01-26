@@ -1,0 +1,1066 @@
+[
+    [
+        [
+            "beide wege",
+            "beide seiten"
+        ],
+        0.1868821816711349
+    ],
+    [
+        [
+            "beide vorgehen",
+            "beide seiten"
+        ],
+        0.07914558272243576
+    ],
+    [
+        [
+            "Bewegung",
+            "Beschwerden"
+        ],
+        0.07582086784668651
+    ],
+    [
+        [
+            "Alkohol",
+            "Beschwerden"
+        ],
+        0.0551235871892097
+    ],
+    [
+        [
+            "Cannabis",
+            "Beschwerden"
+        ],
+        0.052653518456383275
+    ],
+    [
+        [
+            "Bewegung",
+            "Schmerzen"
+        ],
+        0.03839612594615384
+    ],
+    [
+        [
+            "Cannabis",
+            "Schmerzen"
+        ],
+        0.0324070580031602
+    ],
+    [
+        [
+            "Schokolade",
+            "Beschwerden"
+        ],
+        0.030210755632435967
+    ],
+    [
+        [
+            "Alkohol",
+            "Schmerzen"
+        ],
+        0.029062438802505888
+    ],
+    [
+        [
+            "Schokolade",
+            "Schmerzen"
+        ],
+        0.019506320132986404
+    ],
+    [
+        [
+            "zahn z\u00e4hne",
+            "z\u00e4hne gut"
+        ],
+        0.019124016802858766
+    ],
+    [
+        [
+            "Rauch Zigaretten",
+            "Nichtraucher"
+        ],
+        0.01821246342288446
+    ],
+    [
+        [
+            "zahn z\u00e4hne",
+            "z\u00e4hne dauerhaft"
+        ],
+        0.01652823557385339
+    ],
+    [
+        [
+            "Cannabis",
+            "Stress"
+        ],
+        0.014180544254824179
+    ],
+    [
+        [
+            "Physi Fitness",
+            "k\u00f6rperliche belastung"
+        ],
+        0.013511229869525647
+    ],
+    [
+        [
+            "Bewegung",
+            "Schmerz"
+        ],
+        0.013448655708528604
+    ],
+    [
+        [
+            "beide wege",
+            "beide ursachen"
+        ],
+        0.011751940200233298
+    ],
+    [
+        [
+            "Alkohol",
+            "Fieber"
+        ],
+        0.011693090319490543
+    ],
+    [
+        [
+            "Bewegung",
+            "Stress"
+        ],
+        0.011682052112343397
+    ],
+    [
+        [
+            "Alkohol",
+            "Stress"
+        ],
+        0.011458472056346022
+    ],
+    [
+        [
+            "Nickel",
+            "Beschwerden"
+        ],
+        0.010861764210333564
+    ],
+    [
+        [
+            "Cannabis",
+            "Schmerz"
+        ],
+        0.009021831660758003
+    ],
+    [
+        [
+            "Alkohol",
+            "Schmerz"
+        ],
+        0.008884753698508371
+    ],
+    [
+        [
+            "Schokolade",
+            "Fieber"
+        ],
+        0.008736851498207123
+    ],
+    [
+        [
+            "Rauch Zigar",
+            "Zigaretten"
+        ],
+        0.008722585614820316
+    ],
+    [
+        [
+            "Schokolade",
+            "Stress"
+        ],
+        0.008097248358167584
+    ],
+    [
+        [
+            "Ast Poll",
+            "Ast Stern"
+        ],
+        0.007998094586376816
+    ],
+    [
+        [
+            "Nickel",
+            "Schmerzen"
+        ],
+        0.0079863902185652
+    ],
+    [
+        [
+            "Cannabis",
+            "Fieber"
+        ],
+        0.007697509245566432
+    ],
+    [
+        [
+            "Rechts Links",
+            "Schw\u00e4che"
+        ],
+        0.0071657220256013685
+    ],
+    [
+        [
+            "Bewegung",
+            "Angst"
+        ],
+        0.006096256300483317
+    ],
+    [
+        [
+            "Schokolade",
+            "Schmerz"
+        ],
+        0.006048823626122478
+    ],
+    [
+        [
+            "Aufkl\u00e4rung",
+            "psych sucht"
+        ],
+        0.005680344966318436
+    ],
+    [
+        [
+            "Physi Belastung",
+            "k\u00f6rperliche schw\u00e4che"
+        ],
+        0.005653337755486349
+    ],
+    [
+        [
+            "lip positiv",
+            "lip negativ"
+        ],
+        0.005235532266096512
+    ],
+    [
+        [
+            "Rauch",
+            "Zigaretten"
+        ],
+        0.00491599692077217
+    ],
+    [
+        [
+            "Arzneimittel",
+            "Patienten"
+        ],
+        0.004757123641364992
+    ],
+    [
+        [
+            "Aufkl\u00e4rung",
+            "Symptome"
+        ],
+        0.004607372621964809
+    ],
+    [
+        [
+            "letztere",
+            "Fieber"
+        ],
+        0.004468307302010359
+    ],
+    [
+        [
+            "Medizin",
+            "Patienten"
+        ],
+        0.004443057645619571
+    ],
+    [
+        [
+            "beides",
+            "Patienten"
+        ],
+        0.004347493380970084
+    ],
+    [
+        [
+            "Therapie",
+            "Symptome"
+        ],
+        0.00421957601207211
+    ],
+    [
+        [
+            "digital training",
+            "Pausen"
+        ],
+        0.004171056490211979
+    ],
+    [
+        [
+            "letztere",
+            "psych sucht"
+        ],
+        0.004136918422260924
+    ],
+    [
+        [
+            "beides",
+            "psych sucht"
+        ],
+        0.004136484941853423
+    ],
+    [
+        [
+            "Sport",
+            "Symptome"
+        ],
+        0.003593841505876928
+    ],
+    [
+        [
+            "Rauch Zigar",
+            "Nichtraucher"
+        ],
+        0.0034459035071728495
+    ],
+    [
+        [
+            "Digital Innovation",
+            "viele ver\u00e4nderungen"
+        ],
+        0.0033724365975663995
+    ],
+    [
+        [
+            "Technik",
+            "Patienten"
+        ],
+        0.0032535306006065937
+    ],
+    [
+        [
+            "Sicherheit",
+            "Angst"
+        ],
+        0.00319295162267911
+    ],
+    [
+        [
+            "Salz",
+            "Hus Besser"
+        ],
+        0.003188721131370833
+    ],
+    [
+        [
+            "rechts oben",
+            "links"
+        ],
+        0.0030766947456639165
+    ],
+    [
+        [
+            "fr\u00fcher",
+            "Inf Ap"
+        ],
+        0.002972345665942704
+    ],
+    [
+        [
+            "Aufkl\u00e4rung",
+            "psych abh\u00e4ngigkeit"
+        ],
+        0.0027783343009590575
+    ],
+    [
+        [
+            "Nickel",
+            "Stress"
+        ],
+        0.0026753599380765635
+    ],
+    [
+        [
+            "letztere",
+            "psych abh\u00e4ngigkeit"
+        ],
+        0.0026570026062572843
+    ],
+    [
+        [
+            "Papier",
+            "Hus Weiterhin"
+        ],
+        0.0024329573661527265
+    ],
+    [
+        [
+            "folgendes",
+            "Patienten"
+        ],
+        0.002401434729867011
+    ],
+    [
+        [
+            "Rauch",
+            "Nichtraucher"
+        ],
+        0.002330754234881543
+    ],
+    [
+        [
+            "Nickel",
+            "Schmerz"
+        ],
+        0.0022939794137948315
+    ],
+    [
+        [
+            "Laufen",
+            "Inf Ap"
+        ],
+        0.0022048041231054697
+    ],
+    [
+        [
+            "morgen",
+            "Grippe"
+        ],
+        0.0021328935884247927
+    ],
+    [
+        [
+            "Nickel",
+            "Fieber"
+        ],
+        0.0021222277543835673
+    ],
+    [
+        [
+            "Schlaf",
+            "Angst"
+        ],
+        0.002100329072017123
+    ],
+    [
+        [
+            "Digitalisierung",
+            "viele weitere"
+        ],
+        0.0020650341149614287
+    ],
+    [
+        [
+            "Radfahren",
+            "Symptome"
+        ],
+        0.0020396052563945934
+    ],
+    [
+        [
+            "Psychologie",
+            "Angst"
+        ],
+        0.0020236277663531793
+    ],
+    [
+        [
+            "Kreativit\u00e4t",
+            "Symptome"
+        ],
+        0.0020107533944092567
+    ],
+    [
+        [
+            "Fu\u00dfball",
+            "Sport"
+        ],
+        0.0018703123521722628
+    ],
+    [
+        [
+            "Psychologie",
+            "Mob Negativ"
+        ],
+        0.0018107277698284137
+    ],
+    [
+        [
+            "Salz",
+            "Grippe"
+        ],
+        0.0017003447537867658
+    ],
+    [
+        [
+            "Weihnachten",
+            "Grippe"
+        ],
+        0.001538665844886277
+    ],
+    [
+        [
+            "Rechts Seite",
+            "links"
+        ],
+        0.0014478808702168301
+    ],
+    [
+        [
+            "Mobilit\u00e4t",
+            "Angst"
+        ],
+        0.0013509198191976029
+    ],
+    [
+        [
+            "Sauerstoff",
+            "magen bedingt"
+        ],
+        0.0013188049695207714
+    ],
+    [
+        [
+            "Marc Links",
+            "rechts"
+        ],
+        0.0011715601819548033
+    ],
+    [
+        [
+            "Nichtraucher",
+            "Zigaretten"
+        ],
+        0.0011365815578946443
+    ],
+    [
+        [
+            "Bio",
+            "viele wochen"
+        ],
+        0.0011068287915828817
+    ],
+    [
+        [
+            "Bakterien",
+            "Grippe"
+        ],
+        0.0011013097814545124
+    ],
+    [
+        [
+            "Bewegungs",
+            "k\u00f6rperliche schw\u00e4che"
+        ],
+        0.0010371496417617095
+    ],
+    [
+        [
+            "Aufkl\u00e4rung",
+            "Kar Erkrankungen"
+        ],
+        0.00098816746731142
+    ],
+    [
+        [
+            "W\u00e4rme",
+            "K\u00e4lte"
+        ],
+        0.0009084837084429812
+    ],
+    [
+        [
+            "Bakterien",
+            "Entz Darm"
+        ],
+        0.0009046857469451091
+    ],
+    [
+        [
+            "beides",
+            "Kar Erkrankungen"
+        ],
+        0.0008987781850501727
+    ],
+    [
+        [
+            "Salz",
+            "Hus Gut"
+        ],
+        0.0008655175534813889
+    ],
+    [
+        [
+            "pal plan",
+            "pal pad"
+        ],
+        0.0008394638101224667
+    ],
+    [
+        [
+            "Grippe",
+            "Bakterien"
+        ],
+        0.0008384262467799388
+    ],
+    [
+        [
+            "Lob",
+            "Mob Weiterhin"
+        ],
+        0.0008313902323414363
+    ],
+    [
+        [
+            "Tabak",
+            "magen bedingt"
+        ],
+        0.0008115024211623531
+    ],
+    [
+        [
+            "Salz",
+            "Gi Magen"
+        ],
+        0.0007814200073257559
+    ],
+    [
+        [
+            "bio form",
+            "Co Work"
+        ],
+        0.0007766282618827133
+    ],
+    [
+        [
+            "sm digitalisierung",
+            "Co Work"
+        ],
+        0.0007518837899938266
+    ],
+    [
+        [
+            "Kaffee",
+            "Pausen"
+        ],
+        0.0007424589196061474
+    ],
+    [
+        [
+            "Krebs",
+            "Tum Bedingt"
+        ],
+        0.0007283122827268705
+    ],
+    [
+        [
+            "letztere",
+            "Kar Erkrankungen"
+        ],
+        0.0006348496634866072
+    ],
+    [
+        [
+            "Chlor",
+            "magen bedingt"
+        ],
+        0.0005947267013259443
+    ],
+    [
+        [
+            "Obst",
+            "Hus Gut"
+        ],
+        0.0005697713351588331
+    ],
+    [
+        [
+            "Schlaf",
+            "Hus Schlaf"
+        ],
+        0.0005480157547797563
+    ],
+    [
+        [
+            "Links",
+            "rechts"
+        ],
+        0.0005279606562465274
+    ],
+    [
+        [
+            "Therapie",
+            "Kar Erkrankungen"
+        ],
+        0.000520377294815422
+    ],
+    [
+        [
+            "Psychologie",
+            "Mob Positiv"
+        ],
+        0.0004896245562330354
+    ],
+    [
+        [
+            "Arzneimittel",
+            "Kar Erkrankungen"
+        ],
+        0.00042910708434724053
+    ],
+    [
+        [
+            "Baseball",
+            "magen bedingt"
+        ],
+        0.000410963896710108
+    ],
+    [
+        [
+            "Luft",
+            "Raum Frei"
+        ],
+        0.0003824100072968678
+    ],
+    [
+        [
+            "cr bekannt",
+            "Cc Bekannt"
+        ],
+        0.00035861115372661043
+    ],
+    [
+        [
+            "Fitness",
+            "Sport"
+        ],
+        0.00033828634912614795
+    ],
+    [
+        [
+            "ast pflanze",
+            "ast baum"
+        ],
+        0.0003273059224491888
+    ],
+    [
+        [
+            "Fett",
+            "entz haut"
+        ],
+        0.00032298606586254896
+    ],
+    [
+        [
+            "Umweltschutz",
+            "viele risiken"
+        ],
+        0.00029770079907368
+    ],
+    [
+        [
+            "Gent Material",
+            "Brust Hals"
+        ],
+        0.0002665527449614484
+    ],
+    [
+        [
+            "Chrom",
+            "tum infektion"
+        ],
+        0.0002532571111211985
+    ],
+    [
+        [
+            "Krebs",
+            "tum infektion"
+        ],
+        0.0002529815447594534
+    ],
+    [
+        [
+            "Cr Daher",
+            "Cc Weiterhin"
+        ],
+        0.00025104435942540965
+    ],
+    [
+        [
+            "Gro\u00dfmutter",
+            "Brust Hals"
+        ],
+        0.00024441455844775113
+    ],
+    [
+        [
+            "Pat",
+            "Inf Infektion"
+        ],
+        0.00022590238674785877
+    ],
+    [
+        [
+            "physi sport",
+            "Schw\u00e4che"
+        ],
+        0.00022517450857933527
+    ],
+    [
+        [
+            "Cr Eher",
+            "Cc Negativ"
+        ],
+        0.00021567390394242066
+    ],
+    [
+        [
+            "Cr Aktuell",
+            "Cc Weiterhin"
+        ],
+        0.00020894231151281632
+    ],
+    [
+        [
+            "Bewegungs",
+            "Belastung"
+        ],
+        0.00020665999886180527
+    ],
+    [
+        [
+            "zucker",
+            "Entz Darm"
+        ],
+        0.00020541921025709337
+    ],
+    [
+        [
+            "Intervention",
+            "ic operation"
+        ],
+        0.00019839228093259433
+    ],
+    [
+        [
+            "Schmuck",
+            "Brust Hals"
+        ],
+        0.00016989128611909367
+    ],
+    [
+        [
+            "kor operation",
+            "R\u00fccken Operation"
+        ],
+        0.0001608396953670092
+    ],
+    [
+        [
+            "Golf",
+            "Gi Leiden"
+        ],
+        0.00016014223174764828
+    ],
+    [
+        [
+            "cr erneut",
+            "Cc Erneut"
+        ],
+        0.00015877171862880803
+    ],
+    [
+        [
+            "Moos",
+            "Mob Positiv"
+        ],
+        0.000152852084116622
+    ],
+    [
+        [
+            "Pr\u00e4vention",
+            "ic operation"
+        ],
+        0.00014602357766234974
+    ],
+    [
+        [
+            "Erziehung",
+            "Kinder"
+        ],
+        0.00014568848595718434
+    ],
+    [
+        [
+            "zahn",
+            "Z\u00e4hne Dauerhaft"
+        ],
+        0.00014217034470654418
+    ],
+    [
+        [
+            "danach",
+            "ic operation"
+        ],
+        0.00013478357508502444
+    ],
+    [
+        [
+            "daher",
+            "ic operation"
+        ],
+        0.0001326948852555907
+    ],
+    [
+        [
+            "zahn",
+            "z\u00e4hne gut"
+        ],
+        0.00012347738401226086
+    ],
+    [
+        [
+            "Lob",
+            "Mob Dauerhaft"
+        ],
+        0.00012214371356788987
+    ],
+    [
+        [
+            "Pop",
+            "Lip Positiv"
+        ],
+        0.00011414037597559524
+    ],
+    [
+        [
+            "Schwangerschaft",
+            "R\u00fccken Schwangerschaft"
+        ],
+        0.00011245417328973878
+    ],
+    [
+        [
+            "Drogen",
+            "Inf Infektion"
+        ],
+        0.00010705268535001165
+    ],
+    [
+        [
+            "Allah",
+            "Inf Infektion"
+        ],
+        0.00010455878738208039
+    ],
+    [
+        [
+            "Trinkwasser",
+            "Dur Hitze"
+        ],
+        0.00010329403923310947
+    ],
+    [
+        [
+            "insgesamt",
+            "Ic Therapie"
+        ],
+        9.925846291507914e-05
+    ],
+    [
+        [
+            "Fussball",
+            "Sport"
+        ],
+        9.375377074283155e-05
+    ],
+    [
+        [
+            "Umweltschutz",
+            "Impf Lebensmittel"
+        ],
+        7.639074929271329e-05
+    ],
+    [
+        [
+            "Schritt Leistung",
+            "Gi Leiden"
+        ],
+        7.539688238572937e-05
+    ],
+    [
+        [
+            "david",
+            "Gi Leiden"
+        ],
+        5.737688464894519e-05
+    ],
+    [
+        [
+            "Gott",
+            "Gi Leiden"
+        ],
+        5.429305404430667e-05
+    ],
+    [
+        [
+            "Schrott",
+            "Sch Sterben"
+        ],
+        5.118705060442394e-05
+    ],
+    [
+        [
+            "Mac",
+            "Dc Weiterhin"
+        ],
+        4.6642588105202976e-05
+    ],
+    [
+        [
+            "internet",
+            "hiv"
+        ],
+        3.9348894865816833e-05
+    ],
+    [
+        [
+            "Schrott",
+            "sch tod"
+        ],
+        3.5354924306804524e-05
+    ],
+    [
+        [
+            "Bakterien",
+            "Hiv"
+        ],
+        2.0703565989393457e-05
+    ],
+    [
+        [
+            "Schwangerschaft",
+            "Hiv"
+        ],
+        1.7319827737277444e-05
+    ],
+    [
+        [
+            "Deutschland",
+            "hiv"
+        ],
+        1.3172835791946818e-05
+    ],
+    [
+        [
+            "Korruption",
+            "hiv"
+        ],
+        8.411166084423368e-06
+    ]
+]
