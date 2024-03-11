@@ -1,5 +1,6 @@
 # Harvesting German clinical knowledge graphs from pretrained language models
 
+The following work is a Master’s thesis by Natalia Minakova, done at the Computational Linguistics Department of the University of Heidelberg. This project was supervised by Prof. Dr. Anette Frank. 
 ## Introduction
 
 Knowledge graphs can be a great tool to leverage information, more specifically healthcare data, that can lead to improved clinical decision-making, enhanced
